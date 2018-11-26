@@ -1513,6 +1513,18 @@
     "repo": "https://github.com/garyb/purescript-quickcheck-laws.git",
     "version": "v4.0.0"
   },
+  "quickserve": {
+    "dependencies": [
+      "aff",
+      "console",
+      "node-http",
+      "foreign-generic",
+      "typelevel-prelude",
+      "record"
+    ],
+    "repo": "https://github.com/paf31/purescript-quickserve.git",
+    "version": "v3.0.0"
+  },
   "random": {
     "dependencies": [
       "effect",
