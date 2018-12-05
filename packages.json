@@ -203,6 +203,25 @@
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v4.0.0"
   },
+  "bytestrings": {
+    "dependencies": [
+      "arrays",
+      "effect",
+      "exceptions",
+      "foldable-traversable",
+      "integers",
+      "leibniz",
+      "maybe",
+      "newtype",
+      "node-buffer",
+      "prelude",
+      "quickcheck",
+      "quotient",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/rightfold/purescript-bytestrings.git",
+    "version": "v7.0.0"
+  },
   "canvas": {
     "dependencies": [
       "arraybuffer-types",
@@ -429,6 +448,19 @@
     ],
     "repo": "https://github.com/passy/purescript-errors.git",
     "version": "v4.0.1"
+  },
+  "eth-core": {
+    "dependencies": [
+      "argonaut",
+      "bytestrings",
+      "foreign",
+      "foreign-generic",
+      "prelude",
+      "ring-modules",
+      "simple-json"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-eth-core.git",
+    "version": "v3.0.0"
   },
   "event": {
     "dependencies": [
@@ -895,6 +927,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-lcg.git",
     "version": "v2.0.0"
+  },
+  "leibniz": {
+    "dependencies": [
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/paf31/purescript-leibniz.git",
+    "version": "v5.0.0"
   },
   "lists": {
     "dependencies": [
@@ -1517,13 +1557,22 @@
     "dependencies": [
       "aff",
       "console",
-      "node-http",
       "foreign-generic",
-      "typelevel-prelude",
-      "record"
+      "node-http",
+      "record",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/paf31/purescript-quickserve.git",
     "version": "v3.0.0"
+  },
+  "quotient": {
+    "dependencies": [
+      "prelude",
+      "proxy",
+      "quickcheck"
+    ],
+    "repo": "https://github.com/rightfold/purescript-quotient.git",
+    "version": "v2.0.0"
   },
   "random": {
     "dependencies": [
@@ -1628,6 +1677,13 @@
     ],
     "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
     "version": "v4.0.0"
+  },
+  "ring-modules": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-ring-modules.git",
+    "version": "v5.0.1"
   },
   "routing": {
     "dependencies": [
@@ -2167,13 +2223,5 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v4.0.0"
-  },
-  "leibniz": {
-    "dependencies": [
-      "prelude",
-      "unsafe-coerce"
-    ],
-    "repo": "https://github.com/paf31/purescript-leibniz.git",
-    "version": "v5.0.0"
   }
 }
